@@ -21,6 +21,7 @@
 // length
 // morallesons
 // agegroup
+// then create objects 
 
 
 
@@ -31,14 +32,9 @@ class AncestralStroies{
         this.agegroup=agegroup;
     } 
     getDEsig(){
-        const morallesons=""
-        const length=""
-        if(this.morallesons===thi.agegroup){
-            console.log('');
-        }
-        else{
-            console.log('wear dull cloths');
-        }
+        let strory=[]
+      let story1 =  new AncestralStroies
+      story1.push
     }
     
 }
@@ -64,7 +60,12 @@ class AncestralStroies{
 
 // Processing
 // creat a class
-// atributes
+// atributes wich are ingrediennts
+// preparationtime
+// cookingmethod
+// nutritionalinformation then creat  subclasses for different types of recipes
+// each with their own unique properties and
+// methods 
 
 class Recipe{
     constructor(ingrediennts,preparationtime,cookingmethod,nutritionalinformation){
@@ -73,7 +74,16 @@ class Recipe{
         this.cookingmethod=cookingmethod;
         this.nutritionalinformation=nutritionalinformation;
     }
-    }
+ 
+        }
+        class  MoroccanRecipe extends Recipe{
+            constructor(name,ingrediennts, preparationtime,methods,nutritiona){
+                this.spiceLevel=spiceLevel
+       
+            }
+        }
+           
+        
 
 
 // 3. **Wildlife Preservation:** You're a wildlife conservationist working on a
@@ -106,7 +116,10 @@ class WildlifePreservation{
         this.typicallifespan=typicallifespan;
         this.migrationpatterns=migrationpatterns;
     }
-    getSeaso(){
+    getDifferentSpecies(){
+        if(this.diet===this.typicallifespan){
+
+        }
 
     }
     
@@ -138,7 +151,7 @@ class WildlifePreservation{
 // Artist
 // Performance
 // stage 
-//
+//create subclasses that will inhwrit from the main class
 // 
 class MusicFestival{
     constructor(artist,Perfomance,stage){
@@ -147,10 +160,14 @@ class MusicFestival{
         this.stage=stage;
     }
     checkSchedule(){
-        const schedule=200
-        if(total schedule>this.schedule){
-            return("")
+        const performance="second"
+        if(this.artist===this.performance){
+            return("welcome to the stage")
+          
 
+        }
+        else{
+            return("wait for your turn")
         }
     }
 }
@@ -193,7 +210,13 @@ class Product{
 
 
 // Process
-// creat a class  name it class Student that has attributes
+// creat a class  name it class Student that has attributes wich are Name
+// age
+// // Grades
+// have methods that will help in calculating the avarage grade
+//  display the student information, and determine if the student has passed
+//  Create objects for the Student class 
+
 
 
 
